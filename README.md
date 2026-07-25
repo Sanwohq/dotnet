@@ -2,6 +2,8 @@
 
 Sanwo is a free, open-source payment SDK that gives you a single, unified API for every payment provider. This package provides ASP.NET Tag Helpers for checkout buttons and custom amount forms.
 
+> **Full documentation at [docs.sanwo.dev](https://docs.sanwo.dev/sdks/dotnet/)** — always up to date with guides, examples, and API reference for every SDK and provider.
+
 ## Installation
 
 ```bash
