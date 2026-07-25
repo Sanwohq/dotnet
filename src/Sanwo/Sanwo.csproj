@@ -6,7 +6,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>SanwoHQ</RootNamespace>
 
-    <PackageId>SanwoHQ</PackageId>
+    <PackageId>Sanwo</PackageId>
     <Version>1.0.0</Version>
     <Authors>SanwoHQ</Authors>
     <Description>Sanwo payment SDK for ASP.NET — Tag Helpers for Paystack, Flutterwave, Razorpay, Monnify, Interswitch, and custom providers.</Description>
