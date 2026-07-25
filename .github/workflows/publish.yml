@@ -8,10 +8,6 @@ on:
 jobs:
   publish:
     runs-on: ubuntu-latest
-    environment: production
-    permissions:
-      id-token: write
-      contents: read
     steps:
       - uses: actions/checkout@v4
 
@@ -22,7 +18,4 @@ jobs:
       - run: dotnet pack src/Sanwo/Sanwo.csproj -c Release -o ./nupkg
 
       - name: Publish to NuGet
-        uses: dotnet/publish-nuget-package@v1
-        with:
-          package-path: ./nupkg/SanwoHQ.1.0.0.nupkg
-          nuget-api-url: https://api.nuget.org/v3/index.json
+        run: dotnet nuget push ./nupkg/*.nupkg --source https://api.nuget.org/v3/index.json --api-key ${{ secrets.NUGET_API_KEY }}
