@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net8.0;net9.0</TargetFrameworks>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>SanwoHQ</RootNamespace>
+
+    <PackageId>SanwoHQ</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>SanwoHQ</Authors>
+    <Description>Sanwo payment SDK for ASP.NET — Tag Helpers for Paystack, Flutterwave, Razorpay, Monnify, Interswitch, and custom providers.</Description>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <PackageProjectUrl>https://sanwohq.com</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Sanwohq/dotnet</RepositoryUrl>
+    <PackageTags>payments;paystack;flutterwave;razorpay;monnify;interswitch;sanwo</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+</Project>
