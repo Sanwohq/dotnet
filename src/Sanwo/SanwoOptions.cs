@@ -1,4 +1,4 @@
-namespace SanwoHQ;
+namespace Sanwo;
 
 public class SanwoOptions
 {

@@ -1,6 +1,6 @@
 using Microsoft.Extensions.DependencyInjection;
 
-namespace SanwoHQ;
+namespace Sanwo;
 
 public static class SanwoServiceExtensions
 {

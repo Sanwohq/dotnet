@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Razor.TagHelpers;
 using Microsoft.Extensions.Options;
 
-namespace SanwoHQ.TagHelpers;
+namespace Sanwo.TagHelpers;
 
 [HtmlTargetElement("sanwo-scripts")]
 public class SanwoScriptsTagHelper : TagHelper
