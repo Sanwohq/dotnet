@@ -85,5 +85,7 @@ public class SanwoCustomAmountTagHelper : TagHelper
             output.Attributes.SetAttribute("data-sanwo-callback", Callback);
         if (!string.IsNullOrEmpty(TemplateUrl))
             output.Attributes.SetAttribute("data-sanwo-template-url", TemplateUrl);
+
+        output.TagMode = TagMode.StartTagAndEndTag;
     }
 }

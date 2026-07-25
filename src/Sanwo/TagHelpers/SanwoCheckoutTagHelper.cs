@@ -82,6 +82,7 @@ public class SanwoCheckoutTagHelper : TagHelper
         if (!string.IsNullOrEmpty(TemplateUrl))
             output.Attributes.SetAttribute("data-sanwo-template-url", TemplateUrl);
 
+        output.TagMode = TagMode.StartTagAndEndTag;
         output.Content.SetContent(ButtonText);
     }
 }
